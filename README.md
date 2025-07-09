@@ -2,8 +2,7 @@
 
 High-speed volleyball ball detection and tracking using an optimized ONNX model, achieving **200 FPS** on an Intel Core i5-10400F CPU @ 2.90GHz. This repository provides scripts for real-time inference, outputting ball coordinates to CSV and optional visualized video output.
 
-![Demo](https://github.com/asigatchov/fast-volleyball-tracking-inference/examples/output.gif)
-
+![Demo](https://raw.githubusercontent.com/asigatchov/fast-volleyball-tracking-inference/refs/heads/master/examples/output.gif)
 ## Features
 - **High Performance**: 200 FPS on modest CPU hardware (Intel Core i5-10400F @ 2.90GHz).
 - **Optimized for CPU**: Lightweight ONNX model designed for grayscale video input.
