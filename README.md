@@ -10,6 +10,9 @@ High-speed volleyball ball detection and tracking using an optimized ONNX model,
 - **Customizable**: Adjustable track length for visualization.
 - **Easy to Use**: Simple command-line interface with clear options.
 
+
+[For training used - vball-net](https://github.com/asigatchov/vball-net)
+
 ## Installation
 
 ### Prerequisites
@@ -140,6 +143,10 @@ uv sync
 - **Architecture**: Lightweight CNN optimized for CPU inference.
 - **Input**: Grayscale video frames.
 - **Weights**: Available at [link to weights](#) <!-- Replace with actual link -->.
+
+## Training model
+
+[For training used - vball-net](https://github.com/asigatchov/vball-net)
 
 
 ## License
