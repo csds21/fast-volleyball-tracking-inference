@@ -78,19 +78,15 @@ This command processes `sample_video.mp4`, saves ball coordinates to `output/coo
 
 ## Output
 - **CSV File**: Contains frame ID and ball coordinates (x, y).
-  ```csv
+```csv
 Frame,Visibility,X,Y
 0,0,-1,-1
 1,1,1068,536
 2,1,1068,532
 3,1,1068,525
-4,1,1068,513
-5,1,1065,506
-6,1,1065,502
-7,1,1065,495
-8,1,1065,487
-  ...
-  ```
+...
+1008,1,1065,487
+```
 - **Video (Optional)**: Visualized output with tracked ball path, saved to `output/`.
 
 ## Repository Structure
@@ -112,7 +108,8 @@ fast-volleyball-tracking-inference/
 ├── src
 │   ├── inference_onnx.py
 │   └── inference_onnx_seq9_gray_v2.py
-└── uv.lock```
+└── uv.lock
+```
 
 ## Requirements
 - Python >= 3.12
